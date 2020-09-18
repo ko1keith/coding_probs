@@ -1,7 +1,6 @@
 class Palindrome(object):
 
     def isPalindrome(self, x):
-
         if(x < 0):
             # if x is negative, automatically return false
             return False
@@ -22,5 +21,4 @@ class Palindrome(object):
             else:
                 #print(x[i] + " is not  " + x[-1 - i])
                 return False
-
         return True

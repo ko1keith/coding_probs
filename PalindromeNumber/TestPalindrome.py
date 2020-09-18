@@ -16,6 +16,7 @@ class TestPalindrome(unittest.TestCase):
         palindromeObj = Palindrome()
         self.assertFalse(palindromeObj.isPalindrome(12))
         self.assertFalse(palindromeObj.isPalindrome(123))
+        self.assertFalse(palindromeObj.isPalindrome(-123))
         self.assertFalse(palindromeObj.isPalindrome(123456789))
 
 
